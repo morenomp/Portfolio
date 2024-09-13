@@ -445,13 +445,14 @@ main{
     .proyectosWidth {
       width: 100%;
       height: 26vh;
+      padding: 15px;
     }
 /*text imgs*/
   .ContProjects {
     padding: 5px 0px  5px 20px;
   }
   .ContProjects h2 {
-      font-size: 1.5em;
+      font-size: 1.2em;
       color: var(--color-negro);
   }
   .ContProjects span {
