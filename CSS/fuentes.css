@@ -1,0 +1,10 @@
+/*                 Montserrat                  */
+@font-face{
+    font-family: Montserrat;
+    src: url(../Fonts/Montserrat-Regular.ttf);
+}
+/*                Lora Regular                 */
+@font-face{
+    font-family: Playfair;
+    src: url(../Fonts/PlayfairDisplay-VariableFont_wght.ttf);
+}
