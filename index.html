@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<meta name="description" content="Portfolio de Marc Moreno Pineda">
+
+	<meta name="keywords" content="Portfolio">
+
+	<meta name="author" content="Marc Moreno Pineda">
+
+	<meta name="copyright" content="propiedades del copyright Marc Moreno Pineda">
+	
+	<link rel="stylesheet" href="CSS/style.css">
+	<link rel="stylesheet" href="CSS/index.css">
+	<link rel="stylesheet" href="CSS/fuentes.css">
+
+	<script src="JS/efectos.js"></script>
+
+	<link rel="icon" type="image/png" href="IMG/favicon.png">
+
+	<title>Marc Moreno - Portfolio</title>
+</head>
+
+<body id="bodyAnimate">
+<!-- -------------------------------------------- -->
+<!--             Animación de entrada             -->
+<!-- -------------------------------------------- -->
+	<section id="ContTransition">
+		<h2 id="trAnimate">M</h2>
+		<span class="trSpan_1"></span>
+		<span class="trSpan_2"></span>
+		<span class="trSpan_3"></span>
+		<span class="trSpan_4"></span>
+		<h2 id="trAnimate_2">MORENO</h2>
+	</section>
+
+<!-- -------------------------------------------- -->
+<!--                    HEADER                    -->
+<!-- -------------------------------------------- -->
+	<header id="menu_scroll">
+		<!-- <img id="faviconMenu" src="IMG/favicon.png" alt="imagen de inicio"> -->
+		<a href="index.html" id="flexLogo">
+			<h3>M</h3>
+			<h3 id="invertResp">MORENO</h3>
+		</a>
+
+		<div id="ContMenu" class="noneMenu">
+			<a href="index.html">Inicio</a>
+			<a class="opacityMenu" href="sobre_mi.html">Sobre mí</a>
+
+			<li id="texto_menu_grande">
+
+				<a class="opacityMenu texto_menu" href="proyectos.html">Proyectos ▼</a> 
+
+				<ul id="subMenu">
+					<li class="elemSubmenu">
+						<a class="opacityMenu hoverSubMenu" href="proyectos/webs_proy.html">Webs</a>
+					</li>
+
+					<li class="elemSubmenu">
+						<a class="opacityMenu hoverSubMenu" href="proyectos/videos_proy.html">Vídeos</a>
+					</li>
+
+					<li class="elemSubmenu">
+						<a class="opacityMenu hoverSubMenu" href="proyectos/edits_proy.html">Ediciones</a>
+					</li>
+
+					<li class="elemSubmenu">
+						<a class="opacityMenu hoverSubMenu" href="proyectos/animates_proy.html">Animaciones</a>
+					</li>
+
+					<li class="elemSubmenu">
+						<a class="opacityMenu hoverSubMenu" href="proyectos/fotos_proy.html">Fotos</a>
+					</li>
+				</ul>
+			</li>
+		</div>
+
+		<a href="mailto:rais2004mp@gmail.com?subject=¡En%20que%20puedo%20ayudarte!">
+			<button id="contactMe" class="noneMenu">
+				Contacto
+				<img src="IMG/arrow-right-solid.svg" alt="flecha de contacto">
+			</button>
+		</a>
+
+<!-- -------------------------------------- -->
+<!--            RESPONSIVE MENU             -->
+<!-- -------------------------------------- -->
+		
+		<div id="ContMenu" class="responsiveNone">
+			<button class="menuBurguer" id="burguer_button">
+
+				<span id="line_one"></span>
+				<span id="line_two"></span>
+							
+			</button>
+		</div>
+
+	</header>
+
+		<section id="contMenuResp" class="responsiveNone">
+
+			<div id="ContMenu" class="modResp">
+				<a class="wResp" href="index.html">INICIO</a>
+				<a class="wResp" href="sobre_mi.html">SOBRE MÍ</a>
+
+				<li id="texto_menu_grande">
+
+					<a class="texto_menu wResp" href="proyectos.html">PROYECTOS ▼</a> 
+
+					<ul id="subMenu">
+						<li class="elemSubmenu">
+							<a class="hoverSubMenu" href="proyectos/webs_proy.html">WEBS</a>
+						</li>
+
+						<li class="elemSubmenu">
+							<a class="hoverSubMenu" href="proyectos/videos_proy.html">VÍDEOS</a>
+						</li>
+
+						<li class="elemSubmenu">
+							<a class="hoverSubMenu" href="proyectos/edits_proy.html">EDICIONES</a>
+						</li>
+
+						<li class="elemSubmenu">
+							<a class="hoverSubMenu" href="proyectos/animates_proy.html">ANIMACIONES</a>
+						</li>
+
+						<li class="elemSubmenu">
+							<a class="hoverSubMenu" href="proyectos/fotos_proy.html">FOTOS</a>
+						</li>
+					</ul>
+				</li>
+<!--       contact       -->
+				<div id="flexRespContact">
+					<a class="medidasRespImg" href="mailto:rais2004mp@gmail.com">
+						<img src="IMG/email.svg" alt="email">
+					</a>
+					<a class="medidasRespImg" href="tel:+34665721655">
+						<img src="IMG/tel.svg" alt="telefono">
+					</a>
+				</div>
+			</div>
+
+				<script src="JS/responsive_menu.js"></script>
+		</section>
+<!-- -------------------------------------------- -->
+<!--                     MAIN                     -->
+<!-- -------------------------------------------- -->
+	<main>
+		<section id="aboutMe">
+
+			<div id="ContAbout">
+
+				<div id="ContTitle">
+					<h1 class="title">Marc&nbsp;</h1>
+					<h1 class="title">Moreno</h1>
+				</div>
+				
+				<h3>Diseñador & Desarrollador web en crecimiento - "Desde pequeño un apasionado de lo digital"</h3>
+
+				<div id="flexButtons">
+					<a href="Proyectos/a_lallavedeoro.html">
+						<button id="proyectosButton">
+							Último proyecto
+							<img src="IMG/arrow-right-solid.svg" alt="flecha de Mis proyectos">
+						</button>
+					</a>
+
+					<a href="sobre_mi.html">
+						<button id="aboutMeButton">
+							Más de mí
+							<img src="IMG/arrow-right-solid.svg" alt="flecha de Más de mí">
+						</button>
+					</a>
+
+				</div>
+
+			</div>
+
+			<img id="imgMoreno" src="IMG/mmorenopng.png" alt="yo">
+			<img id="imgMoreno_resp" src="IMG/mmorenopng_resp.png" alt="yo">
+
+		</section>
+
+<!-- --------------------------------- -->
+
+		<span id="separation">
+			<i id="arrowSeparation"></i>
+		</span>
+
+<!-- --------------------------------- -->
+
+		<section id="projects">
+
+			<div id="ContImgProjectsIndex">
+				<img src="IMG/corona_butterfly.png" alt="">
+			</div>
+
+			<div id="ContProjectsIndex">
+
+				<div id="ContTitle2">
+					<h1 class="title2">Último&nbsp;</h1>
+					<h1 class="title2">proyecto</h1>
+				</div>
+
+				<div id="ContTextProjectsIndex">
+					<h3>Proyecto realizado en este último año.</h3>
+					<h3>Englobando desde animaciones, video promocional, páginas web y demás.</h3>
+				</div>
+
+<!-- 				<a class="widthButton" href="#">
+					<button id="projectsIndex">
+						Ver más
+						<img src="IMG/arrow-right-solid.svg" alt="flecha de Más de mí">
+					</button>
+				</a> -->
+
+				<div class="btn-1">
+					<a href="Proyectos/a_lallavedeoro.html">
+					    <span id="projectsIndex">Ver más
+					    <img src="IMG/arrow-right-solid.svg" alt="flecha de Más de mí"></span>
+					</a>
+				</div>
+
+			</div>
+
+		</section>
+		
+	</main>
+<!-- -------------------------------------------- -->
+<!--                    FOOTER                    -->
+<!-- -------------------------------------------- -->
+	<footer>
+
+		<span id="menuLine"></span>
+
+		<section id="ContFlexFooter">
+			<h3>Copyright © since 2024 – Marc Moreno</h3>
+
+<!-- 			<div class="ContContactoHeight">
+				<a href="tel:+34665721655">+34 665 72 16 55</a>
+
+				<a href="mailto:rais2004pod@gmail.com">rais2004pod@gmail.com</a>
+			</div> -->
+		</section>
+
+	</footer>
+
+</body>
+
+</html>

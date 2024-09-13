@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<meta name="description" content="Portfolio de Marc Moreno Pineda">
+
+	<meta name="keywords" content="Portfolio">
+
+	<meta name="author" content="Marc Moreno Pineda">
+
+	<meta name="copyright" content="propiedades del copyright Marc Moreno Pineda">
+	
+	<link rel="stylesheet" href="CSS/style.css">
+	<link rel="stylesheet" href="CSS/index.css">
+	<link rel="stylesheet" href="CSS/fuentes.css">
+
+	<script src="JS/efectos_header.js"></script>
+
+	<link rel="icon" type="image/png" href="IMG/favicon.png">
+
+	<title>Sobre Mí - Marc Moreno</title>
+</head>
+
+<body id="bodyAnimate_resto">
+<!-- -------------------------------------------- -->
+<!--             Animación de entrada             -->
+<!-- -------------------------------------------- -->
+
+	<section id="ContTransition_resto"></section>
+	<section id="ContTransition_resto_two"></section>
+
+<!-- -------------------------------------------- -->
+<!--                    HEADER                    -->
+<!-- -------------------------------------------- -->
+	<header id="menu_scroll">
+
+		<a href="index.html" id="flexLogo">
+			<h3>M</h3>
+			<h3 id="invertResp">MORENO</h3>
+		</a>
+
+		<div id="ContMenu" class="noneMenu">
+			<a class="opacityMenu" href="index.html">Inicio</a>
+			<a href="sobre_mi.html">Sobre mí</a>
+
+			<li id="texto_menu_grande">
+
+				<a class="opacityMenu texto_menu" href="proyectos.html">Proyectos ▼</a> 
+
+				<ul id="subMenu">
+					<li class="elemSubmenu">
+						<a class="opacityMenu hoverSubMenu" href="proyectos/webs_proy.html">Webs</a>
+					</li>
+
+					<li class="elemSubmenu">
+						<a class="opacityMenu hoverSubMenu" href="proyectos/videos_proy.html">Vídeos</a>
+					</li>
+
+					<li class="elemSubmenu">
+						<a class="opacityMenu hoverSubMenu" href="proyectos/edits_proy.html">Ediciones</a>
+					</li>
+
+					<li class="elemSubmenu">
+						<a class="opacityMenu hoverSubMenu" href="proyectos/animates_proy.html">Animaciones</a>
+					</li>
+
+					<li class="elemSubmenu">
+						<a class="opacityMenu hoverSubMenu" href="proyectos/fotos_proy.html">Fotos</a>
+					</li>
+				</ul>
+			</li>
+		</div>
+
+		<a href="mailto:rais2004mp@gmail.com?subject=¡En%20que%20puedo%20ayudarte!" class="noneMenu">
+			<button id="contactMe">
+				Contacto
+				<img src="IMG/arrow-right-solid.svg" alt="flecha de contacto">
+			</button>
+		</a>
+
+<!-- -------------------------------------- -->
+<!--            RESPONSIVE MENU             -->
+<!-- -------------------------------------- -->
+		
+		<div id="ContMenu" class="responsiveNone">
+			<button class="menuBurguer" id="burguer_button">
+
+				<span id="line_one"></span>
+				<span id="line_two"></span>
+							
+			</button>
+		</div>
+
+	</header>
+
+		<section id="contMenuResp" class="responsiveNone">
+
+			<div id="ContMenu" class="modResp">
+				<a class="wResp" href="index.html">INICIO</a>
+				<a class="wResp" href="sobre_mi.html">SOBRE MÍ</a>
+
+				<li id="texto_menu_grande">
+
+					<a class="texto_menu wResp" href="proyectos.html">PROYECTOS ▼</a> 
+
+					<ul id="subMenu">
+						<li class="elemSubmenu">
+							<a class="hoverSubMenu" href="proyectos/webs_proy.html">WEBS</a>
+						</li>
+
+						<li class="elemSubmenu">
+							<a class="hoverSubMenu" href="proyectos/videos_proy.html">VÍDEOS</a>
+						</li>
+
+						<li class="elemSubmenu">
+							<a class="hoverSubMenu" href="proyectos/edits_proy.html">EDICIONES</a>
+						</li>
+
+						<li class="elemSubmenu">
+							<a class="hoverSubMenu" href="proyectos/animates_proy.html">ANIMACIONES</a>
+						</li>
+
+						<li class="elemSubmenu">
+							<a class="hoverSubMenu" href="proyectos/fotos_proy.html">FOTOS</a>
+						</li>
+					</ul>
+				</li>
+<!--       contact       -->
+				<div id="flexRespContact">
+					<a class="medidasRespImg" href="mailto:rais2004mp@gmail.com">
+						<img src="IMG/email.svg" alt="email">
+					</a>
+					<a class="medidasRespImg" href="tel:+34665721655">
+						<img src="IMG/tel.svg" alt="telefono">
+					</a>
+				</div>
+			</div>
+
+				<script src="JS/responsive_menu.js"></script>
+		</section>
+<!-- -------------------------------------------- -->
+<!--                     MAIN                     -->
+<!-- -------------------------------------------- -->
+	<main id="center-main">
+
+<!-- ---------------- -->
+
+		<section class="projects">
+
+			<div class="ContProjectsIndex padding-right">
+
+				<div class="ContTitle2">
+					<h1 class="title3">
+						<span class="wordGreen">¿Quíen</span>
+						soy?
+					</h1>
+				</div>
+
+				<div class="ContTextProjectsIndex">
+					<h3>Soy alguien de rápido aprendizaje, puntual y organizado. Especializado en <span class="wordGreen">diseño</span> y <span class="wordGreen">desarrollo front-end</span> para sitios web además de <span class="wordGreen">diseño gráfico</span> para interfaces de usuario <span class="wordGreen">(UI/UX)</span>.</h3>
+				</div>
+
+				<div id="flexButtons">
+
+					<a href="mailto:rais2004mp@gmail.com?subject=¡En%20que%20puedo%20ayudarte!">
+						<button id="contactMe">
+							<img src="IMG/email.svg" alt="email">
+							rais2004mp@gmail.com
+						</button>
+					</a>
+
+					<a href="tel:+34665721655">
+						<button id="contactMe">
+							<img src="IMG/tel.svg" alt="telefono">
+							+34 665 72 16 55
+						</button>
+					</a>
+
+				</div>
+
+			</div>
+
+			<div class="ContProjectsIndex padding-left">
+
+				<div class="ContTextProjectsIndex">
+					<img id="imgMoreno_two" src="IMG/sobremipng.png" alt="yo">
+				</div>
+
+			</div>
+
+		</section>
+
+<!-- ----DISEÑO Y DESARROLLO---- -->
+
+		<section class="projects">
+
+			<div class="ContProjectsIndex border-bottom">
+
+				<div class="ContTitle2">
+					<h1 class="title2">
+						<span class="wordGreen">Diseño</span>
+						y Desarrollo Web
+					</h1>
+				</div>
+
+				<div class="ContTextProjectsIndex">
+					<h3>Destaco en el uso de 
+						<span class="wordGreen">HTML, CSS</span>
+						 y
+						 <span class="wordGreen">JavaScript</span>. 
+						 Además de la realización de 
+						 <span class="wordGreen">Resposive</span>. 
+						 Cuando el proyecto lo plantea también utilizo 
+						 <span class="wordGreen">WordPress</span>.
+					</h3>
+
+					<br>
+
+					<h3>
+						No solo hablamos del apartado más técnico, también de su respectivo diseño y planteamiento. Para ello herramientas como 
+						<span class="wordGreen">Figma</span> 
+						o 
+						<span class="wordGreen">Abode XD</span>
+						son fieles compañeras para ello.
+					</h3>
+				</div>
+
+				<button class="WButton">
+					<a class="proyectosButton" href="proyectos/webs_proy.html" target="_blank">
+						Webs
+						<img src="IMG/arrow-right-solid.svg" alt="flecha de Mis proyectos">
+					</a>
+				</button>
+
+			</div>
+<!-- ----DISEÑO GRAFICO---- -->
+			<div class="ContProjectsIndex border-left-bottom">
+
+				<div class="ContTitle2">
+					<h1 class="title2">
+						<span class="wordGreen">Diseño gráfico</span>
+						UX/UI
+					</h1>
+				</div>
+
+				<div class="ContTextProjectsIndex">
+					<h3>
+						Tener una excelente experiencia de usuario 
+						<span class="wordGreen">(UX)</span>
+						es algo fundamental en cualquier ámbito. Haré de puente entre humanos y ordenador.
+					</h3>
+					
+					<br>
+
+					<h3>
+						Estoy más que familiarizado a lidiar con ello, para todos los casos que se den. No importa si son proyectos existentes, puedo ayudarte a 
+						<span class="wordGreen">mejorar su UX/UI</span>
+						, rediseñarlos y así satisfacer las necesidades de los usuarios.
+					</h3>
+				</div>
+
+				<button class="WButton">
+					<a class="proyectosButton" href="proyectos.html" target="_blank">
+						Proyectos
+						<img src="IMG/arrow-right-solid.svg" alt="flecha de Mis proyectos">
+					</a>
+				</button>
+
+			</div>
+
+		</section>
+<!-- --------CONOCIMIENTOS------- -->
+		<section class="projects">
+
+			<div class="ContProjectsIndex border-right-top">
+
+				<div class="ContTitle2">
+					<h1 class="title2">
+						<span class="wordGreen">Conocimientos</span>
+					</h1>
+				</div>
+
+				<div class="ContTextProjectsIndex">
+					<h3>
+						Desde pequeño poder crear cosas ha sido un sueño, que poco a poco fue incrementando. Y aunque me especializo en el diseño y su posterior desarrollo, no fue mi amor a primera vista.
+					</h3>
+
+					<br>
+
+					<h3>
+						Herramientas como 
+						<span class="wordGreen">Premiere</span>
+						y 
+						<span class="wordGreen">After Effects</span> 
+						fueron ese primer amor. Además de divertirme creando toda clase de cosas con 
+						<span class="wordGreen">Photoshop</span> 
+						o 
+						<span class="wordGreen">Illustrator</span>. 
+						Incluso maquetar con 
+						<span class="wordGreen">InDesign</span> 
+						que parece algo tosco, lo encuentro relajante.
+					</h3>
+				</div>
+
+				<div id="flexButtons">
+
+						<a class="proyectosButton" href="proyectos/videos_proy.html" target="_blank">
+							Videos
+							<img src="IMG/arrow-right-solid.svg" alt="flecha de Mis proyectos">
+						</a>
+
+						<a class="proyectosButton" href="proyectos/edits_proy.html" target="_blank">
+							Ediciones
+							<img src="IMG/arrow-right-solid.svg" alt="flecha de Mis proyectos">
+						</a>
+
+				</div>
+
+			</div>
+<!-- ----SOBRE MI---- -->
+			<div class="ContProjectsIndex border-left-top">
+
+				<div class="ContTitle2">
+					<h1 class="title2">
+						<span class="wordGreen">Sobre</span>
+						Mí
+					</h1>
+				</div>
+
+				<div class="ContTextProjectsIndex">
+					<h3>
+						Aunque cuente con 
+						<span class="wordGreen">cuatro años de experiencia</span> 
+						en todo este mundillo. La realidad es que siempre adoré crear lo que imaginaba. Desde videos caseros con mi hermano, comics con amigos, hasta una marca de parkour.
+					</h3>
+
+					<br>
+
+					<h3>
+						Actualmente, me encuentro 
+						<span class="wordGreen">buscando</span>
+						un lugar donde crecer todavía más. Y estoy más que dispuesto aprender de todas las personas que me rodean, para así ser siempre la mejor versión de mí mismo.
+					</h3>
+				</div>
+
+				<div id="flexButtons">
+
+						<a class="proyectosButton" href="proyectos/fotos_proy.html" target="_blank">
+							Fotografías
+							<img src="IMG/arrow-right-solid.svg" alt="flecha de Mis proyectos">
+						</a>
+
+						<a class="proyectosButton" href="https://www.youtube.com/@mmoreno-2004/featured" target="_blank">
+							YouTube
+							<img src="IMG/arrow-right-solid.svg" alt="flecha de Mis proyectos">
+						</a>
+
+				</div>
+
+			</div>
+
+		</section>
+<!-- ----EXPERIENCIA LLOTJA---- -->
+		<h1 class="titleExperience">Experiencia</h1>
+
+		<section class="experence">
+
+			<div class="ContProjectsIndex border-padding">
+
+				<div class="ContTitle2">
+					<h1 class="title2 centerTitleResp">
+						<span class="wordGreen">EASD Llotja</span>
+						- 2024
+					</h1>
+				</div>
+
+				<div class="ContTextProjectsIndex">
+					<h3>
+						Lideré el diseño y retransmisión de una serie de torneos para el centro.
+					</h3>
+
+					<br>
+
+					<h3>
+						Grabación y posterior edición del vídeo representativo del curso de Interactiva.
+					</h3>
+
+					<br>
+
+					<h3>
+						Diseño y posterior animación de figuras, personajes e interfaces.
+					</h3>
+				</div>
+
+				<div id="flexButtons">
+
+						<a class="proyectosButton" href="https://www.youtube.com/shorts/M4gK38lhsY8?feature=share" target="_blank">
+							Video
+							<img src="IMG/arrow-right-solid.svg" alt="flecha de Mis proyectos">
+						</a>
+
+						<a class="proyectosButton" href="https://drive.google.com/file/d/1mXdBo9sEZohmSZNwQ4aUJyJmz65IzjoX/view?usp=sharing" target="_blank">
+							Curriculum Vitae
+							<img src="IMG/arrow-right-solid.svg" alt="flecha de Mis proyectos">
+						</a>
+
+				</div>
+			</div>
+<!-- ----EXPERIENCIA INDIAN WEBS---- -->
+			<div class="ContProjectsIndex border-padding">
+
+				<div class="ContTitle2">
+					<h1 class="title2 centerTitleResp">
+						<span class="wordGreen">Indian Webs</span>
+						- 2022
+					</h1>
+				</div>
+
+				<div class="ContTextProjectsIndex">
+					<h3>
+						Creación de contenido para redes, vídeos, además de su supervisión.
+					</h3>
+
+					<br>
+
+					<h3>
+						Edición de imágenes y su posterior subida en WordPress y PrestaShop.
+					</h3>
+
+					<br>
+
+					<h3>
+						Asistencia en la gestión de proyectos de diseño, desde el inicio hasta la entrega final.
+					</h3>
+				</div>
+
+			</div>
+
+		</section>
+<!-- ----FORMACIÓN---- -->
+		<h1 class="titleExperience">Formación</h1>
+
+		<section class="experence">
+
+			<div class="ContProjectsIndex padding-form">
+
+				<div class="ContTextProjectsIndex">
+					<h3>
+						2022 - 2024
+					</h3>
+				</div>
+
+				<div class="ContTitle2">
+					<h1 class="title4">
+						<span class="wordGreen">EASD Llotja</span>
+					</h1>
+				</div>
+
+				<div class="ContTextProjectsIndex">
+					<h3>
+						CFGS Gráfica Interactiva
+					</h3>
+				</div>
+
+			</div>
+<!-- ----FORMACIÓN---- -->
+			<div class="ContProjectsIndex padding-form">
+
+				<div class="ContTextProjectsIndex">
+					<h3>
+						2020 - 2022
+					</h3>
+				</div>
+
+				<div class="ContTitle2">
+					<h1 class="title4">
+						<span class="wordGreen">EASD Josep Serra i Abella</span>
+					</h1>
+				</div>
+
+				<div class="ContTextProjectsIndex">
+					<h3>
+						CFGM Gráfica Interactiva
+					</h3>
+				</div>
+
+			</div>
+<!-- ----FORMACIÓN---- -->
+			<div class="ContProjectsIndex padding-form">
+
+				<div class="ContTextProjectsIndex">
+					<h3>
+						Finalización Junio 2020
+					</h3>
+				</div>
+
+				<div class="ContTitle2">
+					<h1 class="title4">
+						<span class="wordGreen">Col·legi Tecla Sala</span>
+					</h1>
+				</div>
+
+				<div class="ContTextProjectsIndex">
+					<h3>
+						ESO
+					</h3>
+				</div>
+
+			</div>
+
+		</section>
+
+	</main>
+<!-- -------------------------------------------- -->
+<!--                    FOOTER                    -->
+<!-- -------------------------------------------- -->
+	<footer>
+
+		<span id="menuLine"></span>
+
+		<section id="ContFlexFooter">
+			<h3>Copyright © since 2024 – Marc Moreno</h3>
+		</section>
+
+	</footer>
+
+</body>
+
+</html>
