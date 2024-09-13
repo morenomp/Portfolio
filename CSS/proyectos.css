@@ -476,7 +476,7 @@ main{
         font-size: 1.4em;
     }
     #ContTitleProy {
-        padding: 50px 50px 25px 50px;
+        padding: 40px 20px 25px 20px;
     }
 }
 @media only screen and (max-width: 495px){
