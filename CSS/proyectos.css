@@ -492,9 +492,9 @@ main{
     width: 100%;
     height: 13em;
   }
-  #ContSub{
+/*   #ContSub{
    font-size: 0.7em;
-  }
+  } */
 }
 @media only screen and (max-width: 321px){
 /*text*/
