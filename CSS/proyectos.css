@@ -478,9 +478,6 @@ main{
     #ContTitleProy {
         padding: 50px 50px 25px 50px;
     }
-    #ContSub{
-        font-size: 0.7em;
-    }
 }
 @media only screen and (max-width: 495px){
 /*webs dentro*/
@@ -494,6 +491,9 @@ main{
   iframe {
     width: 100%;
     height: 13em;
+  }
+  #ContSub{
+   font-size: 0.7em;
   }
 }
 @media only screen and (max-width: 321px){
