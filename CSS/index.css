@@ -739,6 +739,10 @@ span {
   }
 }
 @media only screen and (max-width: 400px){
+/* img sobre mi */
+   #imgMoreno_two {
+	width: 82%;
+   }
 /*text*/
   .ContTextProjectsIndex {
     text-align: center;
