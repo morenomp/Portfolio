@@ -593,6 +593,9 @@ span {
   #aboutMe{
     padding: 0px 25px;
   }
+#ContProjectsIndex {
+    padding: 30px 0px;
+}
   #projects{
     padding: 31px 15px;
   }
