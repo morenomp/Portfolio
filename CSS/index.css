@@ -221,7 +221,7 @@ font-size: 5em;
   flex-direction: column;
 }*/
 .btn-1 a{
-  width: 133px;
+/*   width: 133px; */
 
   display: flex;
 	justify-content: center;
