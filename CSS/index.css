@@ -221,7 +221,7 @@ font-size: 5em;
   flex-direction: column;
 }*/
 .btn-1 a{
-/*   width: 133px; */
+  width: 133px;
 
   display: flex;
 	justify-content: center;
@@ -525,6 +525,9 @@ span {
   #projects{
     padding: 31px 50px;
     flex-direction: column-reverse;
+  }
+   .btn-1 a {
+    width: auto;
   }
   #ContProjectsIndex{
     text-align: center;
