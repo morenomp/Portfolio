@@ -10,7 +10,7 @@ function hideShowOnScroll(){
 	// para calcular los pixeles que scrolleas
 
 
-	if (document.documentElement.scrollTop < 110) {
+	if (document.documentElement.scrollTop < 40) {
 
 		document.getElementById("menu_scroll").style.backgroundColor  = "transparent";
 		document.getElementById("menu_scroll").style.backdropFilter  = "blur(0px)";
