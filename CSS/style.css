@@ -809,6 +809,15 @@ footer{
     justify-content: center;
   }
 }
+@media only screen and (max-width: 745px){
+  .iconCloseLightbox {
+      right: 10px;
+      top: 20px;
+
+      background: #00efff;
+      box-shadow: rgb(0 0 0 / 25%) 0px 0px 0px; 
+  }
+}
 @media only screen and (max-width: 446px){
   #menu_scroll {
     padding: 25px 25px;
