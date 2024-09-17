@@ -8,7 +8,7 @@ function hideShowOnScroll(){
 
 	console.log(document.documentElement.scrollTop);
 
-	if (document.documentElement.scrollTop < 80) {
+	if (document.documentElement.scrollTop < 40) {
 
 		document.getElementById("menu_scroll").style.backgroundColor  = "transparent";
 		document.getElementById("menu_scroll").style.backdropFilter  = "blur(0px)";
