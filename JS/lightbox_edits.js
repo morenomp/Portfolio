@@ -30,7 +30,7 @@ function showLB(i){
 function hideLB(){
 
 	document.getElementById("filterOpac").style.display = "none";
-	document.documentElement.style.overflow="auto";
+	document.documentElement.style.overflow="scroll";
 	document.getElementById("modalLightbox").style.display = "none";
 	
 }
