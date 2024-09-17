@@ -93,10 +93,30 @@
 }
 @media only screen and (max-width: 745px){
     #modalLightbox {
-        height: 60%;
-        top: -12%;
+        width: 100%;
+        height: 100%;
+        background-color: var(--color-negro);
+
+        transform: translate(0%, 0%);
+        top: 0;
+        left: 0;
+        z-index: 104;
 
         flex-direction: column;
+    }
+    #LBImage {
+        width: 100%;
+    }
+    .flexRespGallery {
+        width: 100%;
+        bottom: 0;
+        position: fixed;
+        
+        border-radius: 0px; 
+        background: transparent;
+    }
+    .arrowsLB {
+        filter: invert(1);
     }
 
     .galleryNone{
