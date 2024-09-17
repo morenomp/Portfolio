@@ -744,6 +744,15 @@ footer{
 /*/////////////////////////////////////*/
 
 /*------------------tablet-------------------*/
+@media only screen and (max-width: 1000px){
+  .iconCloseLightbox {
+      right: 10px;
+      top: 20px;
+
+      background: #00efff;
+      box-shadow: rgb(0 0 0 / 25%) 0px 0px 0px; 
+  }
+}
 @media only screen and (max-width: 840px){
 /*menu*/
   #flexLogo {
@@ -807,15 +816,6 @@ footer{
 
     display: flex;
     justify-content: center;
-  }
-}
-@media only screen and (max-width: 745px){
-  .iconCloseLightbox {
-      right: 10px;
-      top: 20px;
-
-      background: #00efff;
-      box-shadow: rgb(0 0 0 / 25%) 0px 0px 0px; 
   }
 }
 @media only screen and (max-width: 446px){
