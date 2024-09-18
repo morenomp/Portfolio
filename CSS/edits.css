@@ -95,7 +95,8 @@
     #modalLightbox {
         width: 100%;
         height: 100%;
-        background-color: var(--color-negro);
+        background-color: #000000d9;
+        backdrop-filter: blur(4px);
 
         transform: translate(0%, 0%);
         top: 0;
@@ -116,7 +117,15 @@
         background: transparent;
     }
     .arrowsLB {
+        width: 45px;
+        height: auto;
+
+        margin: 10px;
+        padding: 10px 15px;
+
+        border-radius: 6px;
         filter: invert(1);
+        background: rgb(255 255 255 / 75%);
     }
 
     .galleryNone{
@@ -124,6 +133,7 @@
     }
     .flexRespGallery{
         display: flex !important;
+        justify-content: space-evenly;
     }
 }
 @media only screen and (max-width: 704px){
