@@ -429,6 +429,17 @@ body{
   display: flex;
   gap: 20px;
 }
+#flexRespContact_footer {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  filter: invert(1);
+}
+#separateRedesFooter{
+  font-weight: 900;
+  color: var(--color-negro) !important;
+}
+
 .medidasRespImg {
   width: 1em;
   filter: invert(1);
