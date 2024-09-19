@@ -81,7 +81,6 @@ font-size: 5em;
 #proyectosButton img{
 	filter: invert(1);
 }
-#proyectosButton:hover img,
 #aboutMeButton:hover img,
 #projectsIndex:hover img{
   transform: rotate(-45deg);
