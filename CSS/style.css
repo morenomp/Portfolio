@@ -839,6 +839,8 @@ footer{
     height: 65px;
     padding: 12px;
   }
+ #ContFlexFooter h3{
+  font-size: 1em;
 }
 @media only screen and (max-width: 321px){
   #flexLogo {
