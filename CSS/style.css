@@ -441,7 +441,7 @@ body{
 }
 
 .medidasRespImg {
-  width: 1em;
+  width: 1.2em;
   filter: invert(1);
 
   display: flex;
