@@ -56,7 +56,10 @@ main{
     iframe{
         width: 760px;
         height: 39vh;
-	    background-image: url(../IMG/loading.png);
+	background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+	background-image: url(../IMG/loading.png);
     }
 /*text*/
     .ContNamesVideos {
