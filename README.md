@@ -1,7 +1,10 @@
-###¡Hola! 
+###¡Hola!
+
 Soy **Marc Moreno**, Diseñador Gráfico, UI/UX y Desarrollador Web. En este portfolio os muestraré mi evolución profesional y creativa.
 
 🔗 **Visita mi portfolio en:** [mmorenop.netlify.app](https://mmorenop.netlify.app/)
+
+![image](https://github.com/user-attachments/assets/4ebc76d4-05b6-4bf5-afe0-cebc60b8ffeb)
 
 ## 🎨 ¿Qué encontrarás?
 
