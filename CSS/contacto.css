@@ -1,0 +1,336 @@
+:root {
+    --bg: #0f0f10;
+    --accent: #ff6a00;
+    /* acento morenomp */
+    --accent-dark: #e15f00;
+    --panel: #0f1113;
+    --muted: #bfc4c9;
+    --card-bg: #0b0b0c;
+    --white: #ffffff;
+    --radius: 8px;
+}
+
+/* Intro overlay (vídeo grande centrado) */
+#introOverlay {
+    position: fixed;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(2, 6, 9, 0.35);
+    z-index: 1200;
+}
+
+#introOverlay video {
+    width: 260px;
+    height: 260px;
+    border-radius: 50px;
+    object-fit: cover;
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.6);
+    transform-origin: center;
+}
+
+/* Layout principal */
+.box {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0;
+    border-radius: 10px;
+    margin: 120px 0;
+}
+
+/* Left content */
+.content {
+    width: 55%;
+    padding: 36px 50px;
+    background: linear-gradient(180deg, #10DE54 10%, #009331 90%);
+    color: var(--white);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    overflow: hidden;
+}
+
+.grid-background {
+    position: absolute;
+    inset: 0;
+    opacity: .4;
+    width: 100%;
+    height: 100%;
+    -webkit-mask-image: radial-gradient(ellipse at center, rgba(255, 255, 255, 1), transparent);
+    mask-image: radial-gradient(ellipse at center, rgba(255, 255, 255, 1), transparent);
+    background-image:
+        linear-gradient(to right, rgba(0, 0, 0, 0.1) 1px, transparent 1px),
+        linear-gradient(rgba(0, 0, 0, 0.1) 1px, transparent 1px);
+    background-size: 24px 24px;
+}
+
+.brand {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    cursor: default;
+}
+
+.brand p {
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 0.4px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.info p {
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 1.05;
+}
+
+.info a {
+    width: 160px;
+    height: 44px;
+    border-radius: 999px;
+    border: 0;
+    background: rgba(255, 255, 255, 0.12);
+    color: var(--white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+#ContFlexForm {
+    width: 900px;
+    max-width: calc(100% - 32px);
+    display: flex;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.6);
+    overflow: hidden;
+}
+
+.serviceColor {
+    color: var(--white);
+}
+
+#service option,
+#plazoWeb option,
+#estiloWeb option,
+#plazoDesign option,
+#estiloDesign option {
+    color: black;
+}
+
+#dynamicFields {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+hr {
+    opacity: 0.2;
+    border: 0.1px solid #ffffff47;
+    margin: 10px 0;
+}
+
+.subtitle {
+    display: block;
+    font-size: 12px;
+    color: var(--muted);
+    margin-bottom: 6px;
+}
+
+/* Right login (form) */
+.login {
+    width: 45%;
+    padding: 28px;
+    background: var(--bg);
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.locked {
+    filter: blur(4px) grayscale(0.1);
+    pointer-events: none;
+    opacity: 0.9;
+}
+
+.message_ {
+    background: #00c251;
+    color: var(--color-negro);
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border-radius: 15px 15px 15px 0;
+    margin-bottom: .5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+
+.message_ p {
+    font-size: .8rem;
+}
+
+.messageTop {
+    display: flex;
+    gap: 12px;
+    align-items: flex-end;
+}
+
+/* placeholder fijo para que nunca “salte” */
+#miniPlaceholder {
+    width: 54px;
+    height: 54px;
+    border-radius: 12px;
+    overflow: hidden;
+    background: linear-gradient(180deg, #0b0b0b, #111214);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 0 0 54px;
+    /* evitar que cambie tamaño */
+}
+
+/* vídeo inicialmente oculto mediante opacity (no display:none) */
+#miniPlaceholder video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transform: scale(.98);
+    transition: opacity 260ms ease, transform 260ms ease;
+    pointer-events: none;
+    display: block;
+    /* aseguramos que esté en el flujo */
+}
+
+/* clase que activa la aparición */
+#miniPlaceholder video.visible {
+    opacity: 1;
+    transform: scale(1);
+}
+
+/* form styles (basado en tu ejemplo) */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 6px
+}
+
+.inputDesign {
+    height: 40px;
+    width: 100%;
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: #ffffff08;
+    color: var(--muted);
+    border-radius: 6px;
+}
+
+.inputDesign input {
+    flex: 1;
+    border: 0;
+    outline: 0;
+    color: var(--white);
+    background: transparent;
+    padding: 8px 0;
+}
+
+.icons {
+    width: 18px;
+    opacity: 0.9;
+}
+
+/* selects, textarea */
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    background: rgba(255, 255, 255, 0.02);
+    color: var(--white);
+    outline: none;
+    font-family: var(--font);
+}
+
+textarea {
+    min-height: 120px;
+    resize: vertical
+}
+
+/* price + button */
+#price {
+    text-align: right;
+    font-weight: 600;
+    color: var(--muted);
+}
+
+.btn {
+    width: 100%;
+    height: 44px;
+    background: #009331;
+    color: var(--white);
+    border: 0;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: 200ms;
+}
+
+.btn:hover {
+    background-color: #0dc249;
+}
+
+/* small helpers */
+.otherLogins {
+    margin-top: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+    font-size: 13px;
+    color: var(--muted)
+}
+
+.socialIcons {
+    display: flex;
+    gap: 12px
+}
+
+.socialIcons a {
+    color: var(--muted)
+}
+
+@media (max-width:900px) {
+    .box {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .content {
+        display: none;
+    }
+
+    .login {
+        width: 100%;
+    }
+
+    #introOverlay video {
+        width: 200px;
+        height: 200px;
+    }
+}
