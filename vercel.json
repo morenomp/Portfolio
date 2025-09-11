@@ -56,5 +56,77 @@
             "source": "/proyectos/snakeshoes",
             "destination": "/Proyectos/a_snakeshoes.html"
         }
+    ],
+    "redirects": [
+        {
+            "source": "/index.html",
+            "destination": "/",
+            "statusCode": 301
+        },
+        {
+            "source": "/sobre_mi.html",
+            "destination": "/sobremi",
+            "statusCode": 301
+        },
+        {
+            "source": "/proyectos.html",
+            "destination": "/proyectos",
+            "statusCode": 301
+        },
+        {
+            "source": "/Proyectos/webs_proy.html",
+            "destination": "/proyectos/webs",
+            "statusCode": 301
+        },
+        {
+            "source": "/Proyectos/videos_proy.html",
+            "destination": "/proyectos/videos",
+            "statusCode": 301
+        },
+        {
+            "source": "/Proyectos/fotos_proy.html",
+            "destination": "/proyectos/fotos",
+            "statusCode": 301
+        },
+        {
+            "source": "/Proyectos/edits_proy.html",
+            "destination": "/proyectos/edits",
+            "statusCode": 301
+        },
+        {
+            "source": "/Proyectos/animates_proy.html",
+            "destination": "/proyectos/animates",
+            "statusCode": 301
+        },
+        {
+            "source": "/Proyectos/a_lallavedeoro.html",
+            "destination": "/proyectos/lallavedeoro",
+            "statusCode": 301
+        },
+        {
+            "source": "/Proyectos/a_portfolio23.html",
+            "destination": "/proyectos/portfolio23",
+            "statusCode": 301
+        },
+        {
+            "source": "/Proyectos/a_pullandbear.html",
+            "destination": "/proyectos/pullandbear",
+            "statusCode": 301
+        },
+        {
+            "source": "/Proyectos/a_renfe.html",
+            "destination": "/proyectos/renfe",
+            "statusCode": 301
+        },
+        {
+            "source": "/Proyectos/a_sannto.html",
+            "destination": "/proyectos/sannto",
+            "statusCode": 301
+        },
+        {
+            "source": "/Proyectos/a_snakeshoes.html",
+            "destination": "/proyectos/snakeshoes",
+            "statusCode": 301
+        }
     ]
 }

@@ -1,19 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://mmorenop.netlify.app/</loc>
+    <loc>https://www.morenomp.com/</loc>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://mmorenop.netlify.app/proyectos.html</loc>
+    <loc>https://www.morenomp.com/sobremi</loc>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://mmorenop.netlify.app/sobre_mi.html</loc>
+    <loc>https://www.morenomp.com/proyectos</loc>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://mmorenop.netlify.app/contacto.html</loc>
+    <loc>https://www.morenomp.com/proyectos/webs</loc>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.morenomp.com/proyectos/videos</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.morenomp.com/proyectos/fotos</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.morenomp.com/proyectos/edits</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.morenomp.com/proyectos/animates</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.morenomp.com/proyectos/lallavedeoro</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.morenomp.com/proyectos/portfolio23</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.morenomp.com/proyectos/pullandbear</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.morenomp.com/proyectos/renfe</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.morenomp.com/proyectos/sannto</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.morenomp.com/proyectos/snakeshoes</loc>
+    <priority>0.6</priority>
   </url>
 </urlset>
