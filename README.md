@@ -2,7 +2,7 @@
 
 Soy **Marc Moreno**, Diseñador Gráfico, UI/UX y Desarrollador Web. En este portfolio os muestraré mi evolución profesional y creativa.
 
-🔗 **Visita mi portfolio en:** [mmorenop.netlify.app](https://mmorenop.netlify.app/)
+🔗 **Visita mi portfolio en:** [morenomp.com](https://www.morenomp.com/)
 
 ![image](https://github.com/user-attachments/assets/4ebc76d4-05b6-4bf5-afe0-cebc60b8ffeb)
 
@@ -22,7 +22,7 @@ La web está dividida en varias secciones que reflejan mis habilidades y proyect
 
 ## 📫 Contacta conmigo
 
-- 🌐 Web: [mmorenop.netlify.app](https://mmorenop.netlify.app/)
+- 🌐 Web: [morenomp.com](https://www.morenomp.com/)
 - 💼 LinkedIn: [Marc Moreno Pineda](https://es.linkedin.com/in/marc-moreno-pineda)
 - 🎥 YouTube: [@mmoreno-2004](https://www.youtube.com/@mmoreno-2004)
 - 📧 Correo electrónico: morenomp2004@gmail.com

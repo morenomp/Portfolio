@@ -1,0 +1,60 @@
+{
+    "rewrites": [
+        {
+            "source": "/",
+            "destination": "/index.html"
+        },
+        {
+            "source": "/sobremi",
+            "destination": "/sobre_mi.html"
+        },
+        {
+            "source": "/proyectos",
+            "destination": "/proyectos.html"
+        },
+        {
+            "source": "/proyectos/webs",
+            "destination": "/Proyectos/webs_proy.html"
+        },
+        {
+            "source": "/proyectos/videos",
+            "destination": "/Proyectos/videos_proy.html"
+        },
+        {
+            "source": "/proyectos/fotos",
+            "destination": "/Proyectos/fotos_proy.html"
+        },
+        {
+            "source": "/proyectos/edits",
+            "destination": "/Proyectos/edits_proy.html"
+        },
+        {
+            "source": "/proyectos/animates",
+            "destination": "/Proyectos/animates_proy.html"
+        },
+        {
+            "source": "/proyectos/lallavedeoro",
+            "destination": "/Proyectos/a_lallavedeoro.html"
+        },
+        {
+            "source": "/proyectos/portfolio23",
+            "destination": "/Proyectos/a_portfolio23.html"
+        },
+        {
+            "source": "/proyectos/pullandbear",
+            "destination": "/Proyectos/a_pullandbear.html"
+        },
+        {
+            "source": "/proyectos/renfe",
+            "destination": "/Proyectos/a_renfe.html"
+        },
+        {
+            "source": "/proyectos/sannto",
+            "destination": "/Proyectos/a_sannto.html"
+        },
+        {
+            "source": "/proyectos/snakeshoes",
+            "destination": "/Proyectos/a_snakeshoes.html"
+        }
+    ]
+}
