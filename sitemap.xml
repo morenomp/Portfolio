@@ -8,6 +8,10 @@
     <loc>https://www.morenomp.com/sobremi</loc>
     <priority>0.8</priority>
   </url>
+    <url>
+    <loc>https://www.morenomp.com/contacto</loc>
+    <priority>0.8</priority>
+  </url>
   <url>
     <loc>https://www.morenomp.com/proyectos</loc>
     <priority>0.8</priority>
