@@ -32,7 +32,7 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 5em;
+  font-size: 4em;
 }
 
 #ContTitle h1:nth-child(1) {
@@ -104,9 +104,6 @@ main {
 #imgMoreno {
   width: 25%;
   position: relative;
-  /*filter: grayscale(.3);*/
-  /*background-image: url(data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='370' height='550' preserveAspectRatio='none' viewBox='0 0 370 550'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1117%26quot%3b)' fill='none'%3e%3cpath d='M246.489%2c316.714C274.006%2c315.681%2c299.647%2c303.649%2c314.51%2c280.469C330.735%2c255.166%2c338.68%2c222.676%2c323.377%2c196.805C308.275%2c171.275%2c276.131%2c164.378%2c246.489%2c165.478C219.028%2c166.497%2c193.753%2c179.055%2c178.886%2c202.166C162.583%2c227.509%2c153.689%2c259.98%2c169.005%2c285.932C184.144%2c311.585%2c216.723%2c317.832%2c246.489%2c316.714' fill='rgba(15%2c 223%2c 84%2c 0.67)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M195.746%2c553.772C211.642%2c552.421%2c225.317%2c543.187%2c233.051%2c529.234C240.538%2c515.727%2c239.846%2c500.001%2c233.306%2c486.011C225.374%2c469.045%2c214.47%2c449.869%2c195.746%2c449.439C176.633%2c449%2c164.61%2c467.644%2c155.077%2c484.216C145.58%2c500.724%2c135.952%2c520.227%2c145.565%2c536.668C155.125%2c553.019%2c176.873%2c555.376%2c195.746%2c553.772' fill='rgba(15%2c 223%2c 84%2c 0.67)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M188.127%2c383.478C199.055%2c383.791%2c211.183%2c381.601%2c216.513%2c372.056C221.759%2c362.661%2c216.419%2c351.758%2c211.045%2c342.435C205.662%2c333.095%2c198.89%2c323.419%2c188.127%2c322.81C176.52%2c322.153%2c165.743%2c329.325%2c160.228%2c339.56C154.97%2c349.317%2c156.481%2c361.15%2c162.424%2c370.506C167.939%2c379.188%2c177.845%2c383.183%2c188.127%2c383.478' fill='rgba(15%2c 223%2c 84%2c 0.67)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M109.478%2c694.313C145.716%2c694.511%2c166.639%2c657.759%2c184.842%2c626.423C203.17%2c594.873%2c224.708%2c558.512%2c206.849%2c526.694C188.782%2c494.507%2c146.318%2c489.863%2c109.478%2c492.155C77.152%2c494.166%2c46.75%2c509.302%2c31.051%2c537.632C15.797%2c565.159%2c21.439%2c597.466%2c35.526%2c625.608C51.668%2c657.857%2c73.416%2c694.116%2c109.478%2c694.313' fill='rgba(15%2c 223%2c 84%2c 0.67)' class='triangle-float1'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1117'%3e%3crect width='370' height='550' fill='white'%3e%3c/rect%3e%3c/mask%3e%3cstyle%3e %40keyframes float1 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-10px%2c 0)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float1 %7b animation: float1 5s infinite%3b %7d %40keyframes float2 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-5px%2c -5px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float2 %7b animation: float2 4s infinite%3b %7d %40keyframes float3 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(0%2c -10px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float3 %7b animation: float3 6s infinite%3b %7d %3c/style%3e%3c/defs%3e%3c/svg%3e);*/
-  /*background-image: url(data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='370' height='550' preserveAspectRatio='none' viewBox='0 0 370 550'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1022%26quot%3b)' fill='none'%3e%3cpath d='M268.271%2c457.013C288.137%2c456.154%2c304.816%2c443.012%2c314.101%2c425.428C322.767%2c409.017%2c321.503%2c389.664%2c312.364%2c373.512C303.071%2c357.089%2c287.138%2c344.741%2c268.271%2c344.431C248.902%2c344.112%2c231.852%2c355.586%2c221.592%2c372.018C210.606%2c389.614%2c205.04%2c411.527%2c215.026%2c429.709C225.317%2c448.447%2c246.913%2c457.936%2c268.271%2c457.013' fill='rgba(15%2c 223%2c 84%2c 0.55)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M161.345%2c219.393C172.671%2c220.194%2c183.3%2c213.611%2c189.046%2c203.819C194.863%2c193.907%2c195.704%2c181.234%2c189.361%2c171.65C183.516%2c162.818%2c171.936%2c162.035%2c161.345%2c161.96C150.565%2c161.884%2c137.935%2c161.862%2c132.636%2c171.25C127.381%2c180.559%2c134.212%2c191.148%2c139.687%2c200.329C144.967%2c209.182%2c151.063%2c218.666%2c161.345%2c219.393' fill='rgba(15%2c 223%2c 84%2c 0.55)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M294.733%2c389.122C316.006%2c389.95%2c337.682%2c380.361%2c347.523%2c361.483C356.82%2c343.647%2c349.019%2c322.857%2c338.07%2c305.984C328.256%2c290.86%2c312.734%2c281.141%2c294.733%2c280.131C274.579%2c279%2c252.391%2c283.251%2c242.068%2c300.598C231.579%2c318.223%2c238.127%2c340.005%2c248.613%2c357.632C258.814%2c374.779%2c274.796%2c388.346%2c294.733%2c389.122' fill='rgba(15%2c 223%2c 84%2c 0.55)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M276.863%2c271.184C301.813%2c272.175%2c328.402%2c266.198%2c341.688%2c245.056C355.687%2c222.778%2c352.249%2c194.481%2c339.54%2c171.443C326.335%2c147.507%2c304.178%2c128.639%2c276.863%2c127.552C247.724%2c126.392%2c217.97%2c140.013%2c204.903%2c166.084C192.776%2c190.279%2c205.094%2c217.907%2c220.384%2c240.238C233.382%2c259.223%2c253.873%2c270.271%2c276.863%2c271.184' fill='rgba(15%2c 223%2c 84%2c 0.55)' class='triangle-float2'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1022'%3e%3crect width='370' height='550' fill='white'%3e%3c/rect%3e%3c/mask%3e%3cstyle%3e %40keyframes float1 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-10px%2c 0)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float1 %7b animation: float1 5s infinite%3b %7d %40keyframes float2 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-5px%2c -5px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float2 %7b animation: float2 4s infinite%3b %7d %40keyframes float3 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(0%2c -10px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float3 %7b animation: float3 6s infinite%3b %7d %3c/style%3e%3c/defs%3e%3c/svg%3e);*/
 }
 
 #imgMoreno_resp {
@@ -580,7 +577,7 @@ span {
 
   /*INICIO*/
   #ContTitle {
-    font-size: 4em;
+    font-size: 3em;
   }
 
   #ContImgProjectsIndex img {
@@ -835,17 +832,20 @@ span {
   }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 650px) {
 
-  /*INICIO*/
   #ContTitle {
-    font-size: 9.5vw;
+    font-size: 2.6em;
   }
 
   #ContTitle2 {
-    font-size: 7.3vw;
+    font-size: 2em;
   }
+}
 
+@media only screen and (max-width: 600px) {
+
+  /*INICIO*/
   #ContProjectsIndex {
     width: auto;
   }
@@ -856,6 +856,14 @@ span {
 }
 
 @media only screen and (max-width: 560px) {
+
+  #ContTitle {
+    font-size: 6.5vw;
+  }
+
+  #ContTitle2 {
+    font-size: 5.7vw;
+  }
 
   /*text*/
   #imgMoreno_resp {
