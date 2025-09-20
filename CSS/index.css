@@ -520,6 +520,12 @@ span {
   border-radius: 20px;
   padding: 65px;
 }
+.no-border-padding {
+  width: min(1500px, 100%);
+
+  border-radius: 20px;
+  padding: 65px;
+}
 
 .padding-form {
   width: min(1500px, 100%);
@@ -810,6 +816,11 @@ span {
     border-radius: 20px;
     padding: 45px;
   }
+  .no-border-padding {
+    width: min(1500px, 100%);
+    border-radius: 20px;
+    padding: 45px;
+}
 
   .border-left-top {
     padding-left: 40px;

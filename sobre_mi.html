@@ -5,7 +5,8 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-	<meta name="description" content="Portfolio de Marc Moreno Pineda - Diseñador gráfico & Desarrollador web">
+	<meta name="description"
+		content="Portfolio de Marc Moreno Pineda, diseñador gráfico, UI/UX y desarrollador web. Descubre mis proyectos, descarga mi CV y contacta para colaboraciones.">
 
 	<meta name="keywords"
 		content="Portfolio, Diseño web, Desarrollo web, Diseño web personalizado, Desarrollo web responsive, Diseño UX/UI, Diseño web creativo, Desarrollo de aplicaciones web, 
@@ -16,6 +17,8 @@
 
 	<meta name="copyright" content="propiedades del copyright Marc Moreno Pineda">
 
+	<link rel="canonical" href="https://morenomp.com/sobremi">
+	
 	<link rel="stylesheet" href="CSS/style.css">
 	<link rel="stylesheet" href="CSS/index.css">
 	<link rel="stylesheet" href="CSS/fuentes.css">
@@ -137,8 +140,7 @@
 				<a class="medidasRespImg" target="_blank" href="https://www.youtube.com/@mmoreno-2004">
 					<img src="IMG/youtube.svg" alt="youtube">
 				</a>
-				<a class="medidasRespImg" target="_blank"
-					href="https://www.linkedin.com/in/marc-moreno-pineda/">
+				<a class="medidasRespImg" target="_blank" href="https://www.linkedin.com/in/marc-moreno-pineda/">
 					<img src="IMG/linkedin.svg" alt="linkedin">
 				</a>
 				<a class="medidasRespImg" target="_blank" href="https://github.com/morenomp">
@@ -155,6 +157,20 @@
 
 		<script src="JS/responsive_menu.js"></script>
 	</section>
+	<!-- -------------------------------------------- -->
+	<!--                     BOT                      -->
+	<!-- -------------------------------------------- -->
+	<section id="ContBot">
+		<div id="messages-container"></div>
+		<a href="/contacto" id="botWrapper">
+			<video id="videoDefault" src="IMG/MP-BOT.mp4" autoplay loop muted></video>
+			<video id="videoHover" src="IMG/MP-BOT-2.mp4" muted></video>
+			<video id="videoAfter" src="IMG/MP-BOT-3.mp4" muted></video>
+		</a>
+	</section>
+
+	<script src="JS/bot.js"></script>
+	<script src="JS/botVideo.js"></script>
 	<!-- -------------------------------------------- -->
 	<!--                     MAIN                     -->
 	<!-- -------------------------------------------- -->
@@ -390,15 +406,51 @@
 		<h1 class="titleExperience">Experiencia</h1>
 
 		<section class="experence">
+			<!-- ----EXPERIENCIA b720---- -->
+			<div class="ContProjectsIndex border-padding">
 
+				<div class="ContTitle2">
+					<h1 class="title2 centerTitleResp">
+						<span class="wordGreen">b720</span>
+					</h1>
+				</div>
+				<h3>Junio 2025 - Actualidad</h3>
+
+				<div class="ContTextProjectsIndex">
+					<h3>
+						Diseño e implementación con Next.js para la gestión de usuarios.
+					</h3>
+
+					<br>
+
+					<h3>
+						Creación de BBDD con PostgreSQL y Prisma.
+					</h3>
+
+					<br>
+
+					<h3>
+						Implementación de IA para buscador inteligente.
+					</h3>
+				</div>
+
+				<div id="flexButtons">
+					<a class="proyectosButton" href="https://b720.com/es/" target="_blank">
+						Web
+						<img src="IMG/arrow-right-solid.svg" alt="flecha">
+					</a>
+				</div>
+			</div>
+			<!-- ----EXPERIENCIA LLOJA---- -->
 			<div class="ContProjectsIndex border-padding">
 
 				<div class="ContTitle2">
 					<h1 class="title2 centerTitleResp">
 						<span class="wordGreen">EASD Llotja</span>
-						- 2024
 					</h1>
 				</div>
+
+				<h3>Noviembre 2023 - Abril 2024</h3>
 
 				<div class="ContTextProjectsIndex">
 					<h3>
@@ -419,31 +471,24 @@
 				</div>
 
 				<div id="flexButtons">
-
-					<a class="proyectosButton" href="https://www.youtube.com/shorts/M4gK38lhsY8?feature=share"
-						target="_blank">
-						Video
-						<img src="IMG/arrow-right-solid.svg" alt="flecha de Mis proyectos">
+					<a class="proyectosButton" href="https://www.llotja.cat/" target="_blank">
+						Web
+						<img src="IMG/arrow-right-solid.svg" alt="flecha">
 					</a>
-
-					<a class="proyectosButton"
-						href="https://drive.google.com/file/d/1Shuar3TBAu7_CPK0iSO0B4ieO66HqEVd/view?usp=sharing"
-						target="_blank">
-						Curriculum Vitae
-						<img src="IMG/arrow-right-solid.svg" alt="flecha de Mis proyectos">
-					</a>
-
 				</div>
 			</div>
+		</section>
+		<section class="experence">
 			<!-- ----EXPERIENCIA INDIAN WEBS---- -->
 			<div class="ContProjectsIndex border-padding">
 
 				<div class="ContTitle2">
 					<h1 class="title2 centerTitleResp">
 						<span class="wordGreen">Indian Webs</span>
-						- 2022
 					</h1>
 				</div>
+
+				<h3>Enero 2022 - Marzo 2022</h3>
 
 				<div class="ContTextProjectsIndex">
 					<h3>
@@ -462,9 +507,14 @@
 						Asistencia en la gestión de proyectos de diseño, desde el inicio hasta la entrega final.
 					</h3>
 				</div>
-
+				<div id="flexButtons">
+					<a class="proyectosButton" href="https://indianwebs.com/oficinas/hospitalet/" target="_blank">
+						Web
+						<img src="IMG/arrow-right-solid.svg" alt="flecha">
+					</a>
+				</div>
 			</div>
-
+			<div class="ContProjectsIndex no-border-padding"></div>
 		</section>
 		<!-- ----FORMACIÓN---- -->
 		<h1 class="titleExperience">Formación</h1>
@@ -585,8 +635,7 @@
 				<a class="medidasRespImg" target="_blank" href="https://github.com/morenomp">
 					<img src="IMG/github.svg" alt="github">
 				</a>
-				<a class="medidasRespImg" target="_blank"
-					href="https://www.linkedin.com/in/marc-moreno-pineda/">
+				<a class="medidasRespImg" target="_blank" href="https://www.linkedin.com/in/marc-moreno-pineda/">
 					<img src="IMG/linkedin.svg" alt="linkedin">
 				</a>
 			</div>

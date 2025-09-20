@@ -65,8 +65,8 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     const PRICES = {
-        web: { base: 600, urgent: 400, normal: 200, flexible: 0 },
-        design: { base: 200, urgent: 150, normal: 70, flexible: 0 }
+        web: { base: 350, urgent: 250, normal: 150, flexible: 0 },
+        design: { base: 100, urgent: 80, normal: 65, flexible: 0 }
     };
 
     let currentBase = 0;
@@ -198,16 +198,49 @@ document.addEventListener('DOMContentLoaded', () => {
             });
 
             if (res.ok) {
-                alert("Formulario enviado correctamente!");
+                showCenterMessage("Su mensaje ha sido enviado. Le contactaré personalmente para acabar de detallar los detalles sobre el proyecto. ¡Gracias por su confianza!");
                 contactForm.reset();
             } else {
                 const errorText = await res.text();
                 console.error("Error EmailJS:", errorText);
-                alert("No se pudo enviar el formulario, intenta de nuevo.");
+                showCenterMessage("No se pudo enviar el formulario, intenta de nuevo.", true);
             }
         } catch (err) {
             console.error("Error EmailJS catch:", err);
-            alert("No se pudo enviar el formulario, intenta de nuevo.");
+            showCenterMessage("No se pudo enviar el formulario, intenta de nuevo.", true);
         }
     });
+    function showCenterMessage(msg, isError = false) {
+        const overlay = document.createElement('div');
+        overlay.className = 'center-message-overlay';
+
+        const messageBox = document.createElement('div');
+        messageBox.className = 'center-message-box';
+        if (isError) messageBox.classList.add('error');
+
+        messageBox.innerHTML = `
+        <p>${msg}</p>
+        <div class="progress-bar"><div class="progress"></div></div>
+    `;
+
+        overlay.appendChild(messageBox);
+        document.body.appendChild(overlay);
+
+        // Animación de barra de progreso
+        const progress = messageBox.querySelector('.progress');
+        let width = 0;
+        const duration = 4500;
+        const intervalTime = 50;
+        const step = intervalTime / duration * 100;
+
+        const interval = setInterval(() => {
+            width += step;
+            if (width >= 100) {
+                width = 100;
+                clearInterval(interval);
+                overlay.remove();
+            }
+            progress.style.width = width + '%';
+        }, intervalTime);
+    }
 });
