@@ -65,8 +65,8 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     const PRICES = {
-        web: { base: 350, urgent: 250, normal: 150, flexible: 0 },
-        design: { base: 100, urgent: 80, normal: 65, flexible: 0 }
+        web: { base: 830, urgent: 550, normal: 250, flexible: 0 },
+        design: { base: 180, urgent: 140, normal: 75, flexible: 0 }
     };
 
     let currentBase = 0;
